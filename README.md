@@ -40,7 +40,7 @@ Alerts Tool for DBA to monitor databases.
 - Mail in gibrish - make sure 'appSettings.json' file encoding in uft8.
 - Any other issues will saved on 'log.txt'.
 
-## Recomandation
+## Recommendation
 - Create sql user with limited access for read only authentication.
 - Create mail box spesific for alerts only.
 
