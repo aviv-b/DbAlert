@@ -7,33 +7,42 @@ Alerts Tool for DBA to monitor databases.
 
 
 ## Log settings
-- maxDays - The log file will deleted after X days. 
-- maxMBSize - The log file will deleted after reaching X mb size.
+- MaxDays - The log file will deleted after X days. 
+- MaxMBSize - The log file will deleted after reaching X mb size.
 
 ## Alert settings
-- name - The log file will deleted after X days. 
-- odbcConnString - odbc string connection. Read more: https://www.connectionstrings.com/ 
+- Name - The log file will deleted after X days. 
+- OdbcConnString - odbc string connection. Read more: https://www.connectionstrings.com/ 
 							* recommendation: 
 								 - Use windows odbc connection. 
 								 - Use sql read only user authtication.
-- queryCondition  - Sql query condition for alert. 
-- triggerValue - An string value comparred against queryCondition result if they equals Alert message will send.
-- alertMessage - The Alert Message. 
-- active  - Enable / Disable the alert operation 
+- QueryCondition  - Sql query condition for alert. 
+- TriggerValue - An string value comparred against queryCondition result if they equals Alert message will send.
+- AlertMessage - The Alert Message. 
+- Active  - Enable / Disable the alert operation 
 			- true  
 			- false
-- mails  - List of repcients mail boxes.
+- Mails  - List of repcients mail boxes.
 
 ## SMTP settings
-- server 
-- address 
-- port 
-- username
-- password 
-- active 
+- Server 
+- Address 
+- Port 
+- Username
+- Password 
+- Active 
 
 ## Exchange settings
+- Server 
+- Address 
+- Username
+- Password  - * recommand creating mail account spesific for alerts only !! 
+- Active 
 
+
+## Fix Problems: 
+- Mail in gibrish - make sure 'appSettings.json' file encoding in uft8.
+- Any other issues will saved on 'log.txt'.
 
 
 # Language
