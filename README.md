@@ -1,9 +1,9 @@
 # DbAlert
 Alerts Tool for DBA to monitor databases.
 
-## Files
-- AppSettings.json
-- Log.txt 
+## Important Files
+- AppSettings.json - Settings file.
+- Log.txt - Log file.
 
 
 ## Log settings
@@ -19,9 +19,7 @@ Alerts Tool for DBA to monitor databases.
 - QueryCondition  - Sql query condition for alert. 
 - TriggerValue - An string value comparred against queryCondition result if they equals Alert message will send.
 - AlertMessage - The Alert Message. 
-- Active  - Enable / Disable the alert operation 
-			- true  
-			- false
+- Active  - Enable / Disable the alert operation. 
 - Mails  - List of repcients mail boxes.
 
 ## SMTP settings
