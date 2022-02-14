@@ -15,7 +15,7 @@ Alerts Tool for DBA to monitor databases.
 - OdbcConnString - odbc string connection. Read more: https://www.connectionstrings.com/ 
 							* recommendation: 
 								 - Use windows odbc connection. 
-								 - Use sql read only user authtication.
+								 - Use sql read only user authentication.
 - QueryCondition  - Sql query condition for alert. 
 - TriggerValue - An string value comparred against queryCondition result if they equals Alert message will send.
 - AlertMessage - The Alert Message. 
