@@ -12,10 +12,8 @@ Alerts Tool for DBA to monitor databases.
 
 ## Alert settings
 - Name 
-- OdbcConnString - odbc string connection. Read more: https://www.connectionstrings.com/ 
-							* recommendation: 
-								 - Use windows odbc connection. 
-								 - Use sql read only user authentication.
+- OdbcConnString -  ODBC string connection. Read more: https://www.connectionstrings.com/ 
+							
 - QueryCondition  - Sql query condition for alert. 
 - TriggerValue - An string value comparred against queryCondition result if they equals Alert message will send.
 - AlertMessage - The Alert Message. 
@@ -34,7 +32,7 @@ Alerts Tool for DBA to monitor databases.
 - Server 
 - Address 
 - Username
-- Password  - * recommand creating mail account spesific for alerts only !! 
+- Password  
 - Active 
 
 
@@ -42,6 +40,9 @@ Alerts Tool for DBA to monitor databases.
 - Mail in gibrish - make sure 'appSettings.json' file encoding in uft8.
 - Any other issues will saved on 'log.txt'.
 
+## Recomandation
+- Create sql user with limited access for read only authentication.
+- Create mail box spesific for alerts only.
 
 # Language
 - C# .net freamwork 4.7.2
