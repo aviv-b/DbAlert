@@ -11,7 +11,7 @@ Alerts Tool for DBA to monitor databases.
 - MaxMBSize - The log file will deleted after reaching X mb size.
 
 ## Alert settings
-- Name - The log file will deleted after X days. 
+- Name 
 - OdbcConnString - odbc string connection. Read more: https://www.connectionstrings.com/ 
 							* recommendation: 
 								 - Use windows odbc connection. 
