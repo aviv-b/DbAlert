@@ -13,9 +13,8 @@ Alerts Tool for DBA to monitor databases.
 ## Alert settings
 - Name 
 - OdbcConnString -  ODBC string connection. Read more: https://www.connectionstrings.com/ 
-		   
-		   Support Sql server by defualt.
-		   For MySql / Infromix etc,  Please download relevent odbc driver.  
+		   Note: Sql server supported via odbc connection by defualt.
+		   For MySql / Infromix / Sqllite  etc,  Please download relevent odbc driver.  
 		   
 - QueryCondition  - Sql query condition for alert. 
 - TriggerValue - An string value comparred against queryCondition result if they equals Alert message will send.
