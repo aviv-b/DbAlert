@@ -13,6 +13,7 @@ Alerts Tool for DBA to monitor databases.
 ## Alert settings
 - Name 
 - OdbcConnString -  ODBC string connection. Read more: https://www.connectionstrings.com/ 
+- 
 		   Note: Sql server supported via odbc connection by defualt.
 		   For MySql / Infromix / Sqllite  etc,  Please download relevent odbc driver.  
 		   
