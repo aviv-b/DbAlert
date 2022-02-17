@@ -1,5 +1,10 @@
 # DbAlert
-Alerts Tool for DBA to monitor databases.
+- Alerts Scheduler Tool for DBA to monitor databases.
+- Create alert by given custom sql query. 
+- Json and local files configuration.
+- Build in logger.
+- Sending alerts to mail address: SMTP , Exchange server.
+- Supporting all databases via odbc connection. For more information see 'OdbcConnString' section below.		
 
 ## Important Files
 - AppSettings.json - Settings file.
@@ -47,5 +52,5 @@ Alerts Tool for DBA to monitor databases.
 - Create sql user with limited access for read only authentication.
 - Create mail box spesific for alerts only.
 
-# Language
+## Language
 - C# .net freamwork 4.7.2
