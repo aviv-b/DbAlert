@@ -1,7 +1,7 @@
 # DbAlert
 - Alerts Scheduler Tool for DBA to monitor databases.
 - Create alerts by given custom sql query. 
-- Json and local files configuration.
+- Local files configuration.
 - Build in logger.
 - Sending alerts into mail address: SMTP , Exchange server.
 - Supporting all databases via odbc connection. For more information see 'OdbcConnString' section below.		
