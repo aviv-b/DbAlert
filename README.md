@@ -44,7 +44,7 @@
 - Active 
 
 
-## Fix Problems: 
+## Known issues 
 - Mail in gibrish - make sure 'appSettings.json' file encoding in uft8.
 - Any other issues will saved on 'log.txt'.
 
@@ -54,3 +54,8 @@
 
 ## Language
 - C# .net freamwork 4.7.2
+
+## Os
+- Windows 7 and above.
+- Windows server R2 2008 and above.
+
