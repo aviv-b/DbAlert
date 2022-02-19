@@ -46,7 +46,7 @@
 
 
 ## Known issues 
-- Mail in gibrish - Make sure 'appSettings.json' file encoding is uft8.
+- Email in gibberish - Make sure 'appSettings.json' file encoding is uft8.
 - Any other issues will saved on 'log.txt' file.
 
 ## Recommendation
