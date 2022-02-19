@@ -1,9 +1,9 @@
 # DbAlert
-- Alerts Scheduler Tool for DBA to monitor databases.
+- Alerts scheduler tool for DBA's to create alrets and monitor databases.
 - Create custom alerts by given custom sql query. 
 - Local files configuration.
 - Build in logger.
-- Sending alerts into mail address. Supporting:  Smtp & Exchange server.
+- Sending alerts into mail address. Supporting Smtp & Exchange server.
 - Supporting all rdbms databases via odbc connection. For more information see 'OdbcConnString' section below.		
 
 ## Important files
