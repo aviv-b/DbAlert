@@ -4,7 +4,7 @@
 - Local files configuration.
 - Build in logger.
 - Sending email on alerts. Supporting Smtp & Exchange server.
-- Supporting all rdbms databases via odbc connection. For more information see 'OdbcConnString' section below.		
+- Supporting all rdbms databases with odbc connection. For more information see 'OdbcConnString' section below.		
 
 ## Important files
 - AppSettings.json - Settings file.
