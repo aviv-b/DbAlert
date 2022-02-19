@@ -24,7 +24,7 @@
 		   - MySql / IBM Informix / Sqlite etc,  Please download relevant odbc driver.  
 		   
 - QueryCondition  - Sql query condition for alert. 
-- TriggerValue - An string value compared against 'queryCondition' result if they equals then alert message will be send.
+- TriggerValue - An string value compared against 'queryCondition' result if they equals then alert message will send.
 - AlertMessage - The alert message. 
 - Active  - Enable or disable the alert operation. 
 - Mails  - List of recipients email addresses.
