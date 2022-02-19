@@ -1,5 +1,5 @@
 # DbAlert
-- Alerts scheduler tool for DBA's to create alrets and monitor databases.
+- Scheduler tool for DBA's to create alerts and monitor databases.
 - Create custom alerts by given custom sql query. 
 - Local files configuration.
 - Build in logger.
