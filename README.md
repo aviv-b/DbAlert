@@ -3,7 +3,7 @@
 - Create custom alerts by given custom sql query. 
 - Local files configuration.
 - Build in logger.
-- Sending alerts into mail address. Supporting Smtp & Exchange server.
+- Sending email on alerts. Supporting Smtp & Exchange server.
 - Supporting all rdbms databases via odbc connection. For more information see 'OdbcConnString' section below.		
 
 ## Important files
@@ -25,9 +25,9 @@
 		   
 - QueryCondition  - Sql query condition for alert. 
 - TriggerValue - An string value compared against 'queryCondition' result if they equals then alert message will be send.
-- AlertMessage - The Alert Message. 
-- Active  - Enable or Disable the alert operation. 
-- Mails  - List of repcients mail address.
+- AlertMessage - The alert message. 
+- Active  - Enable or disable the alert operation. 
+- Mails  - List of recipients email addresses.
 
 ## SMTP settings
 - Server 
@@ -46,17 +46,17 @@
 
 
 ## Known issues 
-- Mail in gibrish - make sure 'appSettings.json' file encoding in uft8.
-- Any other issues will saved on 'log.txt'.
+- Mail in gibrish - Make sure 'appSettings.json' file encoding is uft8.
+- Any other issues will saved on 'log.txt' file.
 
 ## Recommendation
 - Create sql user with limited access for read only authentication.
 - Create mail address spesific for alerts only.
 
-## Language
-- C# .net freamwork 4.7.2
+## Written
+- .net framework 4.7.2
 
-## Os
+## OS
 - Windows 7 and above.
-- Windows server R2 2008 and above.
+- Windows server 2008 R2 and above.
 
